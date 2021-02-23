@@ -6,9 +6,9 @@
     .desktop {
         display: none !important;
     }
-    nav.mobile {
+    .mobile {
         display: block;
-        width: 100%;
+        width: 100% !important;
     }
     nav.mobile ul {
         justify-content: space-around;
@@ -37,5 +37,34 @@
     #banner .secondary {
         padding: 32px 16px;
         box-sizing: border-box;
+    }
+
+    /* Information */
+    #information {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+    }
+    #information .secondary {
+        border: none;
+    }
+
+    /* articles */
+    .article {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 64px;
+    }
+    .article.background-color-2 {
+        background-color: white;
+    }
+    .article img.mobile {
+        margin: 0;
+    }
+    .article hgroup {
+        padding-left: 16px;
+    }
+    .article h3 {
+        margin-top: 22px;
     }
 }

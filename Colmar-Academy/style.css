@@ -158,11 +158,11 @@ h4 {
     height: auto;
     margin: 16px;
 }
-.article img.first {
+.first {
     margin-top: 0;
 }
-.article img.last {
-    margin-bottom: 0;
+.last {
+    margin-bottom: 0 !important;
 }
 .article hgroup {
     width: 65%;
