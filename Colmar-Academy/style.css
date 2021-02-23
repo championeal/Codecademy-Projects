@@ -9,6 +9,8 @@ a {
     text-decoration: none;
     color: cornflowerblue;
 }
+
+/* Color Scheme */
 .color-1 {
     color: white;
 }
@@ -30,6 +32,7 @@ a {
 .background-color-3 {
     background-color: #444;
 }
+
 /* Header */
 header {
     padding-right: 24px;
@@ -58,6 +61,7 @@ nav ul {
     display: flex;
     gap: 16px;
 }
+
 /* Main */
 main>section {
     display: flex;
@@ -81,14 +85,19 @@ h4 {
     font-size: 1.125rem;
     font-weight: normal;
 }
-.focus{
+.primary{
     width: 60%;
     margin-right: 24px;
 }
-.focus img {
+.primary img,
+.primary video {
     width: 100%;
     height: auto;
 }
+.secondary {
+    width: 40%;
+}
+
 /* Banner */
 #banner {
     align-items: center;
@@ -106,9 +115,13 @@ h4 {
 }
 /* Information */
 #information .secondary {
-    width: 40%;
     border-left: 1px solid lightgray;
 }
+#information h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+/* articles */
 .article {
     display: flex;
     align-items: center;
@@ -124,6 +137,7 @@ h4 {
 .article hgroup>* {
     margin: 8px 0;
 }
+
 /* Courses */
 #courses {
     flex-direction: column;
@@ -161,4 +175,22 @@ h4 {
 }
 #courses figcaption h4:first-of-type {
     text-transform: uppercase;
+}
+/* Thesis */
+#thesis {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding-left: 24px;
+}
+#thesis article h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+#thesis article h4 {
+    margin: 0;
+}
+#thesis>div {
+    display: flex;
 }
