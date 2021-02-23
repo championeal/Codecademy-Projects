@@ -9,8 +9,23 @@ a {
     text-decoration: none;
     color: cornflowerblue;
 }
-.background-secondary {
+.color-1 {
+    color: white;
+}
+.color-2 {
+    color: #999;
+}
+.background-color-2 {
     background-color: lightgray;
+}
+.color-3 {
+    color: #444;
+}
+.color-3b {
+    color: #666;
+}
+.background-color-3 {
+    background-color: #444;
 }
 /* Header */
 header {
@@ -31,7 +46,7 @@ header {
 }
 #logo span {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
 }
 nav ul {
     list-style: none;
@@ -82,6 +97,9 @@ h4 {
 #banner button {
     width: 100%;
     padding: 8px 0;
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
 }
 /* Information */
 #information .secondary {
