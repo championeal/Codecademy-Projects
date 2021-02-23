@@ -9,7 +9,7 @@ footer {
 }
 a {
     text-decoration: none;
-    color: cornflowerblue;
+    color: #E897DD;
 }
 
 /* Color Scheme */
@@ -20,19 +20,22 @@ a {
     background-color: white;
 }
 .color-2 {
-    color: #999;
+    color: #D1A7CC;
 }
 .background-color-2 {
-    background-color: lightgray;
+    background-color: #d1a7cc59;
 }
 .color-3 {
-    color: #444;
+    color: #473144;
 }
 .color-3b {
-    color: #666;
+    color: #6b1660;
 }
 .background-color-3 {
-    background-color: #444;
+    background-color: #473144;
+}
+.color-4 {
+    color: #050505;
 }
 
 /* Header & Footer */

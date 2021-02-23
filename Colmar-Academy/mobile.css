@@ -61,9 +61,6 @@
         align-items: flex-start;
         margin-bottom: 64px;
     }
-    .article.background-color-2 {
-        background-color: white;
-    }
     .article img.mobile {
         margin: 0;
     }
@@ -74,12 +71,15 @@
         margin-top: 22px;
     }
 
+    /* reset background colors */
+    .article.background-color-2,
+    #courses.background-color-2 {
+        background-color: white;
+    }
+
     /* Courses */
     #courses {
         gap: 8px;
-    }
-    #courses.background-color-2 {
-        background-color: white;
     }
     #courses h2 {
         margin-bottom: 8px;
