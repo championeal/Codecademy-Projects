@@ -5,6 +5,10 @@ body {
 header, main>section, footer {
     padding-left: 24px;
 }
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
 .background-secondary {
     background-color: lightgray;
 }
@@ -48,21 +52,54 @@ h1 {
     font-size: 2.5rem;
     font-weight: 900;
 }
+h2 {
+    font-size: 2.25rem;
+    font-weight: 900;
+}
 h3 {
     font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.125rem;
+    font-weight: normal;
 }
 .focus{
     width: 60%;
     margin-right: 24px;
 }
+.focus img {
+    width: 100%;
+    height: auto;
+}
 /* Banner */
 #banner {
     align-items: center;
 }
-#banner div {
+#banner .secondary {
     width: 30%;
+    margin-right: 10%;
 }
 #banner button {
     width: 100%;
     padding: 8px 0;
+}
+/* Information */
+#information .secondary {
+    width: 40%;
+    border-left: 1px solid lightgray;
+}
+.article {
+    display: flex;
+    align-items: center;
+}
+.article img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+.article hgroup {
+    width: 65%;
+}
+.article hgroup>* {
+    margin: 8px 0;
 }
