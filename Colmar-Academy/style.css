@@ -12,6 +12,9 @@ a {
 .color-1 {
     color: white;
 }
+.background-color-1 {
+    background-color: white;
+}
 .color-2 {
     color: #999;
 }
@@ -120,4 +123,42 @@ h4 {
 }
 .article hgroup>* {
     margin: 8px 0;
+}
+/* Courses */
+#courses {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 72px;
+    gap: 32px;
+}
+#courses h2 {
+    margin: 0;
+}
+#courses .row {
+    display: flex;
+    gap: 32px;
+}
+#courses figure {
+    margin: 0;
+    flex-basis: 33.33%;
+}
+#courses figure img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+#courses figcaption {
+    padding: 16px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#courses figcaption * {
+    margin: 0;
+}
+#courses figcaption h4:first-of-type {
+    text-transform: uppercase;
 }
