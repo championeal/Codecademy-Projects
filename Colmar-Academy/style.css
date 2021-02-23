@@ -33,22 +33,32 @@ a {
     background-color: #444;
 }
 
-/* Header */
+/* Header & Footer */
 header {
-    padding-right: 24px;
     height: 64px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+main, footer {
+    position: relative;
+    top: 64px;
+}
+header, footer {
+    padding-right: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #logo {
-    height: 32px;
     display: flex;
     align-items: center;
 }
-#logo img {
-    height: 100%;
+header img {
+    height: 32px;
     width: auto;
+    display: block;
 }
 #logo span {
     text-transform: uppercase;
@@ -60,6 +70,11 @@ nav ul {
     margin: 0;
     display: flex;
     gap: 16px;
+}
+footer {
+    border-top: 1px solid lightgray;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 /* Main */
@@ -116,11 +131,16 @@ h4 {
 /* Information */
 #information .secondary {
     border-left: 1px solid lightgray;
+    box-sizing: border-box;
 }
 #information h2 {
     margin-top: 32px;
     margin-bottom: 24px;
 }
+#information h5 {
+    margin: 0;
+}
+
 /* articles */
 .article {
     display: flex;
@@ -130,6 +150,12 @@ h4 {
     width: 35%;
     height: auto;
     margin: 16px;
+}
+.article img.first {
+    margin-top: 0;
+}
+.article img.last {
+    margin-bottom: 0;
 }
 .article hgroup {
     width: 65%;
@@ -183,6 +209,9 @@ h4 {
     align-items: center;
     gap: 32px;
     padding-left: 24px;
+}
+#thesis h2 {
+    margin: 0;
 }
 #thesis article h3 {
     margin-top: 24px;
